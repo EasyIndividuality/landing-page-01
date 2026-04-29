@@ -1,1 +1,1 @@
-# landing-page-01
+first landing page project following the odin project

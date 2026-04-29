@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto, sans-serif;
+}
+header {
+  background-color: #1f2937;
+  color: #ffffff;
+  padding: 10px 100px;
+}
+nav ul,
+.navBar,
+.greyBox {
+  display: flex;
+}
+.navBar {
+  align-items: center;
+  justify-content: space-between;
+}
+nav li {
+  list-style-type: none;
+  margin: 0 10px;
+}
+li a:any-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.heroSection {
+  margin: 70px 0;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.leftSection {
+  flex-basis: 40%;
+}
+.leftSection small,
+nav li {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.leftSection h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+.leftSection button {
+  display: block;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: #3882f6;
+  color: #ffffff;
+  margin-top: 5px;
+  border: none;
+}
+.rightSection {
+  flex-basis: 50%;
+}
+.greyBox {
+  background-color: #dcd7d76c;
+  width: 100%;
+  min-height: 150px;
+  align-items: center;
+  justify-content: center;
+}
+.informationSection {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+.informationSection h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+.display {
+  display: flex;
+  justify-content: space-around;
+}
+.layout,
+.quotesSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.layout {
+  width: 200px;
+}
+.layout div {
+  margin: 10px 0;
+  width: 200px;
+  height: 250px;
+  border: 2px solid #0055ff;
+  border-radius: 10px;
+}
+.quotesSection {
+  background-color: #e5e7eb;
+  min-height: 250px;
+}
+.content,
+.callToAction {
+  width: 70%;
+}
+.quotesSection small {
+  display: block;
+  font-weight: bolder;
+  text-align: right;
+  width: 100%;
+}
+.cta-section,
+.callToAction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cta-section {
+  min-height: 200px;
+}
+.callToAction {
+  padding: 20px;
+  justify-content: space-around;
+  background-color: #3882f6;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.callToAction button {
+  padding: 10px 25px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 10px;
+}
+footer {
+  background-color: #1f2937;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
